@@ -17,9 +17,12 @@ article {
   padding: 1rem;
 }
 
+article p {
+  padding: 0 0 1rem;
+}
+
 article header {
-  padding: 1.3rem 0 0 0;
-  border-bottom: 1px solid #999;
+  padding: 1.3rem 0;
 }
 
 article header h1 {
@@ -30,9 +33,26 @@ article header h1 {
 
 article header p {
   margin: 0;
+  padding: 0 0 1.3rem;
   font-style: italic;
+  border-bottom: 1px solid #999;
 }
 
 article>p {
+  margin: 0;
   padding: 0 0 1.3rem;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+article ol {
+  margin:0;
+  padding: 1.3rem;
+}
+
+article>p:last-child {
+  border-bottom: 1px solid #999;
 }
