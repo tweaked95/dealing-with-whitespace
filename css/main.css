@@ -8,6 +8,7 @@ html {
 
 body {
   line-height: 1.3rem;
+  color: #222;
   font-family: "Crimson Text", serif;
   margin: 0;
 }
@@ -22,7 +23,7 @@ article p {
 }
 
 article header {
-  padding: 1.3rem 0;
+  padding: 0 0 1.3rem;
 }
 
 article header h1 {
@@ -38,21 +39,32 @@ article header p {
   border-bottom: 1px solid #999;
 }
 
-article>p {
+article > p {
   margin: 0;
   padding: 0 0 1.3rem;
 }
 
 blockquote {
+  margin:0 1.3rem;
+  padding: 0 0 1.3rem;
   font-size: 1.125rem;
   color: #555;
 }
 
+blockquote p {
+  margin: 0;
+}
+
+.quote {
+  margin: 0;
+  padding: 0;
+}
+
 article ol {
-  margin:0;
+  margin: 0;
   padding: 1.3rem;
 }
 
-article>p:last-child {
+article > p:last-child {
   border-bottom: 1px solid #999;
 }
